@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+  display: table-cell;
+}
+
+h1, h2{
+  font-family: 'Amatic SC';
+  text-align: end;
+  font-size: 65px;
+  margin-right: -75px;
+  margin-bottom: 80px;
+}
+
+header, #principal, #second, #contato, #stream {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  text-align: justify;
+  align-items: center;
+  margin-left: 150px;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#email a{
+  color:white;
+}
+
+img{
+  border-radius: 0.3rem;
+  width: 300px;
+}
+
+#descricao{
+  border: 1.5px solid #e2e2e2;
+  padding: 45px;
+  width: 600px;
+}
+
+#acesso{
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  margin-right: 100px;
+  width: 250px;
+  height: 100px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 30px 6px #161616;
+  color: white;
+}
+
+#second a{
+  color: #fff;
+  width: 300px;
+  text-decoration: none;
+}
+
+.capa{
+  margin-left: -70px;
+}
+
+#acesso.l{
+  height: 50px;
+}
+
+#acesso.m img{
+  padding: 20px;
+  height: 50px;
+  width: 50px;
+}
+.item-menu{
+  display: inline-block;
+  margin: 7px;
+  justify-content:end;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;  
+  border: solid 5px transparent;
+  border-radius: 0.7rem;
+  padding: 10px;
+  text-align: right;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  
+}
+
+#social img{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+#logo{
+  width: 250px;
+  height: 250px;
+  margin-left: -50px;
+}
+
+#sec_ctd{
+  margin-right: 250px;
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
